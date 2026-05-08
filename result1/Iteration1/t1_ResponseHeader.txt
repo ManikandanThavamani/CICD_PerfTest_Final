@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Connection: close
+Date: Thu, 03 Jul 2025 12:05:21 GMT
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: origin
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: PF=zztnHJE23jQlFY7HWi2R0e; Path=/; Secure; HttpOnly; SameSite=None
+rdwr_response: allowed
+
