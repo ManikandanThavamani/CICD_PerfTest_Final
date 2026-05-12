@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
 Content-Type: application/json
 Connection: close
-Date: Tue, 12 May 2026 07:17:53 GMT
+Date: Tue, 12 May 2026 19:38:48 GMT
 X-Frame-Options: SAMEORIGIN
 Referrer-Policy: origin
 Content-Security-Policy: frame-ancestors 'self' https://*.cat.com;
 Cache-Control: no-cache, no-store
 Pragma: no-cache
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: PF=Gf7GRlpKBhfVVegXFZxggb; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PF=J2A0pPSt0RQbOhOWUeDeqd; Path=/; Secure; HttpOnly; SameSite=None
 rdwr_response: allowed
 

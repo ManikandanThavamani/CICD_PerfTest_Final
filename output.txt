@@ -1,10 +1,10 @@
-Virtual User Script started at: 12-05-2026 12:47:52
+Virtual User Script started at: 13-05-2026 01:08:47
 Starting action vuser_init.
 Web Services replay version 2023.0.0 for Windows 11; Toolkit: "WCF"; build 506
 Runtime Settings file: "G:\VugenScripts\CATProject\\default.cfg"
 Vuser directory: "G:\VugenScripts\CATProject"
 Vuser output directory: "G:\VugenScripts\CATProject\"
-LOCAL start date/time : 2026-05-12 12:47:52
+LOCAL start date/time : 2026-05-13 01:08:47
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -12,307 +12,307 @@ Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(3): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
 Action.c(3): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
-Action.c(18): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(18): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(25): web_submit_data("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(25): t=1443ms: 426-byte response headers for "https://fedloginqa.cat.com/as/token.oauth2" (RelFrameId=1, Internal ID=1)
-Action.c(25):     HTTP/1.1 200 OK\r\n
-Action.c(25):     Content-Type: application/json\r\n
-Action.c(25):     Connection: close\r\n
-Action.c(25):     Date: Tue, 12 May 2026 07:17:53 GMT\r\n
-Action.c(25):     X-Frame-Options: SAMEORIGIN\r\n
-Action.c(25):     Referrer-Policy: origin\r\n
-Action.c(25):     Content-Security-Policy: frame-ancestors 'self' https://*.cat.com;\r\n
-Action.c(25):     Cache-Control: no-cache, no-store\r\n
-Action.c(25):     Pragma: no-cache\r\n
-Action.c(25):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
-Action.c(25):     Set-Cookie: PF=Gf7GRlpKBhfVVegXFZxggb; Path=/; Secure; HttpOnly; SameSite=None\r\n
-Action.c(25):     rdwr_response: allowed\r\n
-Action.c(25):     \r\n
-Action.c(25): t=1451ms: 638-byte response body for "https://fedloginqa.cat.com/as/token.oauth2" (RelFrameId=1, Internal ID=1)
-Action.c(25):     {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1
-Action.c(25):     dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cH
-Action.c(25):     M6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODU3Mzg3M30.voDfUcBCFeP-8-RW
-Action.c(25):     nyMS9pW0C7FRq_Wu928gih-QMrYGgsmA2MCeMTU1aj3cC-P593jm2O_zlQSXgwYK4u04dZEhq4vicoNUKI0yRo7vrs
-Action.c(25):     CrN_lOruha7ROVNTR3Rl-AsTsT2DsNDckGSk7FAoC6jNxwjLbk4HCUK9viRwgHyD2-M82bih6o6nJ7RNUMhz3spSUr
-Action.c(25):     ifJuVPu1h_GRXulgbEcFFaXe1ntp0r52lEdHYtPHCgkMys0t52DMmKemOKm-HsDpnwaYQUQHAWNgJyClB7jHJnP_Di
-Action.c(25):     I7MC4Uomo5f0KAUPHr0HO8ZoGszNdPgoR1p1sgWNJO-oyi05A3CGdG2Q","token_type":"Bearer","expires_i
-Action.c(25):     n":3599}
-Action.c(25): Notify: Saving Parameter "Auth_token = eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cHM6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODU3Mzg3M30.voDfUcBCFeP-8-RWnyMS9pW0C7FRq_Wu928gih-QMrYGgsmA2MCeMTU1aj3cC-P593jm2O_zlQSXgwYK4u04dZEhq4vicoNUKI0yRo7vrsCrN_lOruha7ROVNTR3Rl-AsTsT2DsNDckGSk7FAoC6jNxwjLbk4HCUK9viRwgHyD2-M82bih6o6nJ7RNUMhz3spSUrifJuVPu1h_GRXulgbEcFFaXe1ntp0r52lEdHYtPHCgkMys0t52DMmKemOKm-HsDpnwaYQUQHAWNgJyClB7jHJnP_DiI7MC4Uomo5f0KAUPHr0HO8ZoGszNdPgoR1p1sgWNJO-oyi05A3CGdG2Q".
-Action.c(25): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://fedloginqa.cat.com/as/token.oauth2"  	[MsgId: MMSG-26547]
-Action.c(25): web_submit_data("Authorization") was successful, 638 body bytes, 426 header bytes  	[MsgId: MMSG-26386]
-Action.c(34): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(34): Notify: Parameter Substitution: parameter "Auth_token" =  "eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cHM6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODU3Mzg3M30.voDfUcBCFeP-8-RWnyMS9pW0C7FRq_Wu928gih-QMrYGgsmA2MCeMTU1aj3cC-P593jm2O_zlQSXgwYK4u04dZEhq4vicoNUKI0yRo7vrsCrN_lOruha7ROVNTR3Rl-AsTsT2DsNDckGSk7FAoC6jNxwjLbk4HCUK9viRwgHyD2-M82bih6o6nJ7RNUMhz3spSUrifJuVPu1h_GRXulgbEcFFaXe1ntp0r52lEdHYtPHCgkMys0t52DMmKemOKm-HsDpnwaYQUQHAWNgJyClB7jHJnP_DiI7MC4Uomo5f0KAUPHr0HO8ZoGszNdPgoR1p1sgWNJO-oyi05A3CGdG2Q"
+Action.c(17): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(24): web_submit_data("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(24): t=2779ms: 426-byte response headers for "https://fedloginqa.cat.com/as/token.oauth2" (RelFrameId=1, Internal ID=1)
+Action.c(24):     HTTP/1.1 200 OK\r\n
+Action.c(24):     Content-Type: application/json\r\n
+Action.c(24):     Connection: close\r\n
+Action.c(24):     Date: Tue, 12 May 2026 19:38:48 GMT\r\n
+Action.c(24):     X-Frame-Options: SAMEORIGIN\r\n
+Action.c(24):     Referrer-Policy: origin\r\n
+Action.c(24):     Content-Security-Policy: frame-ancestors 'self' https://*.cat.com;\r\n
+Action.c(24):     Cache-Control: no-cache, no-store\r\n
+Action.c(24):     Pragma: no-cache\r\n
+Action.c(24):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+Action.c(24):     Set-Cookie: PF=J2A0pPSt0RQbOhOWUeDeqd; Path=/; Secure; HttpOnly; SameSite=None\r\n
+Action.c(24):     rdwr_response: allowed\r\n
+Action.c(24):     \r\n
+Action.c(24): t=2788ms: 638-byte response body for "https://fedloginqa.cat.com/as/token.oauth2" (RelFrameId=1, Internal ID=1)
+Action.c(24):     {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1
+Action.c(24):     dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cH
+Action.c(24):     M6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODYxODMyOH0.tbBrpfCULL_hPP93
+Action.c(24):     csHgMMV9q5XMKaUqiaiKyyY-YlWiP3VfJy2mtfQTsoZXSgcrauFaSuslrkmoAUdhusLbTDYO27AQXeHhIayoI2Wolr
+Action.c(24):     K0KWXGW4vvyqGTaUru8niJOG_q3Iq4rHNJxVs64GyAGDkJtKZzKuBy8TWTiPbv6VhvVZpk7g-xVVEG6niK3BCf3SHz
+Action.c(24):     8irBFwQv3bi2MRkK7o4AXwDSLutnI1KGy3DZwOnwQLLTGGu4E_-8WE9ffCpN7k3ueWUPM1w6DmjRm7Vkeo6koklY0S
+Action.c(24):     LXKBH2doNEWtqVOD52uF5fmIgxSW5kpJQvvHbKkiWSl-NbYWkf4N58RQ","token_type":"Bearer","expires_i
+Action.c(24):     n":3599}
+Action.c(24): Notify: Saving Parameter "Auth_token = eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cHM6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODYxODMyOH0.tbBrpfCULL_hPP93csHgMMV9q5XMKaUqiaiKyyY-YlWiP3VfJy2mtfQTsoZXSgcrauFaSuslrkmoAUdhusLbTDYO27AQXeHhIayoI2WolrK0KWXGW4vvyqGTaUru8niJOG_q3Iq4rHNJxVs64GyAGDkJtKZzKuBy8TWTiPbv6VhvVZpk7g-xVVEG6niK3BCf3SHz8irBFwQv3bi2MRkK7o4AXwDSLutnI1KGy3DZwOnwQLLTGGu4E_-8WE9ffCpN7k3ueWUPM1w6DmjRm7Vkeo6koklY0SLXKBH2doNEWtqVOD52uF5fmIgxSW5kpJQvvHbKkiWSl-NbYWkf4N58RQ".
+Action.c(24): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://fedloginqa.cat.com/as/token.oauth2"  	[MsgId: MMSG-26547]
+Action.c(24): web_submit_data("Authorization") was successful, 638 body bytes, 426 header bytes  	[MsgId: MMSG-26386]
+Action.c(33): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(33): Notify: Parameter Substitution: parameter "Auth_token" =  "eyJhbGciOiJSUzI1NiIsImtpZCI6IjM3IiwicGkuYXRtIjoiNSJ9.eyJzY29wZSI6W10sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IkNBVC1SREVfY2NfY2xpZW50IiwiaXNzIjoiaHR0cHM6Ly9mZWRsb2dpbnFhLmNhdC5jb20iLCJhdWQiOiJiYXNpYyIsImV4cCI6MTc3ODYxODMyOH0.tbBrpfCULL_hPP93csHgMMV9q5XMKaUqiaiKyyY-YlWiP3VfJy2mtfQTsoZXSgcrauFaSuslrkmoAUdhusLbTDYO27AQXeHhIayoI2WolrK0KWXGW4vvyqGTaUru8niJOG_q3Iq4rHNJxVs64GyAGDkJtKZzKuBy8TWTiPbv6VhvVZpk7g-xVVEG6niK3BCf3SHz8irBFwQv3bi2MRkK7o4AXwDSLutnI1KGy3DZwOnwQLLTGGu4E_-8WE9ffCpN7k3ueWUPM1w6DmjRm7Vkeo6koklY0SLXKBH2doNEWtqVOD52uF5fmIgxSW5kpJQvvHbKkiWSl-NbYWkf4N58RQ"
+Action.c(33): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(33): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(34): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
 Action.c(34): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
-Action.c(34): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(35): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(35): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
-Action.c(35): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(37): Notify: Parameter Substitution: parameter "DealerCode" =  "H160"
-Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(46): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(46): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(61): web_custom_request("configAPI") started  	[MsgId: MMSG-26355]
-Action.c(61): Notify: Parameter Substitution: parameter "DealerCode" =  "H160"
-Action.c(61): t=3644ms: 1136-byte response headers for "https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search" (RelFrameId=1, Internal ID=2)
-Action.c(61):     HTTP/1.1 200 \r\n
-Action.c(61):     Date: Tue, 12 May 2026 07:17:56 GMT\r\n
-Action.c(61):     Content-Type: application/json;charset=UTF-8\r\n
-Action.c(61):     Content-Length: 7349\r\n
-Action.c(61):     Connection: close\r\n
-Action.c(61):     X-Frame-Options: SAMEORIGIN\r\n
-Action.c(61):     Vary: Origin,Accept-Encoding,User-Agent,Access-Control-Request-Method,Access-Control-Reque
-Action.c(61):     st-Headers\r\n
-Action.c(61):     X-Anonymous-Consents: %5B%5D\r\n
-Action.c(61):     Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n
-Action.c(61):     Pragma: no-cache\r\n
-Action.c(61):     Expires: 0\r\n
-Action.c(61):     Strict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\n
-Action.c(61):     X-XSS-Protection: 1; mode=block\r\n
-Action.c(61):     X-Content-Type-Options: nosniff\r\n
-Action.c(61):     Set-Cookie: ROUTE=.api-6dd5b67c8d-zzjxr; Path=/; Secure; HttpOnly; SameSite=None\r\n
-Action.c(61):     X-SAP-Pad: 39851028\r\n
-Action.c(61):     Access-Control-Allow-Origin: *\r\n
-Action.c(61):     Access-Control-Allow-Headers: origin, x-requested-with, accept, content-type, authorizatio
-Action.c(61):     n, X-HTTP-Method-Override, x-cat-user-preferences, X-Cat-API-Tracking-Id, Cache-Control, x
-Action.c(61):     -csrf-token, X-Cat-Development, x-cat-ent-application-module\r\n
-Action.c(61):     Access-Control-Max-Age: 3628800\r\n
-Action.c(61):     Access-Control-Allow-Methods: GET, PUT, POST, DELETE, HEAD, PATCH\r\n
-Action.c(61):     Access-Control-Expose-Headers: Location, X-Cat-API-Tracking-Id\r\n
-Action.c(61):     X-Cat-API-Tracking-Id: 8ed64f94-381a-4cdb-935f-33ad8850321f\r\n
-Action.c(61):     \r\n
-Action.c(61): t=3646ms: 7349-byte response body for "https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search" (RelFrameId=1, Internal ID=2)
-Action.c(61):     {\n
-Action.c(61):        "dealerCode" : "H160",\n
-Action.c(61):        "locale" : "en_US",\n
-Action.c(61):        "rdeSalesModels" : [ {\n
-Action.c(61):           "configurations" : [ {\n
-Action.c(61):              "adjustedDealerPrice" : 0.0,\n
-Action.c(61):              "attachmentList" : [ {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "partDescription" : "KIT",\n
-Action.c(61):                 "partNumber" : "5568555",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              }, {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "includedParts" : [ {\n
-Action.c(61):                    "assemblyIndicator" : "I",\n
-Action.c(61):                    "partDescription" : "BCP DIRECT SHIP",\n
-Action.c(61):                    "partNumber" : "0P7533",\n
-Action.c(61):                    "partPrice" : 0.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : false\n
-Action.c(61):                 }, {\n
-Action.c(61):                    "assemblyIndicator" : "N",\n
-Action.c(61):                    "partDescription" : "3.66 m (12 ft)",\n
-Action.c(61):                    "partNumber" : "4779891",\n
-Action.c(61):                    "partPrice" : 12833.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : true\n
-Action.c(61):                 } ],\n
-Action.c(61):                 "partDescription" : "ATTA SP",\n
-Action.c(61):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              } ],\n
-Action.c(61):              "compatibilityStatus" : "true",\n
-Action.c(61):              "configEnabledBy" : "ST",\n
-Action.c(61):              "currency" : "USD",\n
-Action.c(61):              "dealerPrice" : 0.0,\n
-Action.c(61):              "description" : "Aux Hydraulic Lines w/ Quick Disconnect^Long Stick Dig Depth - 3
-Action.c(61):     110 mm / 122",\n
-Action.c(61):              "dnetPrice" : 68979.0,\n
-Action.c(61):              "hasAttachment" : true,\n
-Action.c(61):              "inventoryAvailabilityData" : "Low",\n
-Action.c(61):              "inventoryAvailabilityDescription" : "",\n
-Action.c(61):              "isCatConfig" : true,\n
-Action.c(61):              "listPrice" : 95802.0,\n
-Action.c(61):              "machineType" : "CAB",\n
-Action.c(61):              "msrpPrice" : 81433.0,\n
-Action.c(61):              "rdeConfigId" : "255255DCA2030C1754302924836",\n
-Action.c(61):              "rdeName" : "ST SHOP 255 CTL D",\n
-Action.c(61):              "shopName" : "ST SHOP 255 CTL H160 D",\n
-Action.c(61):              "shopSubTitle" : "ST SHOP 255 D"\n
-Action.c(61):           }, {\n
-Action.c(61):              "adjustedDealerPrice" : 0.0,\n
-Action.c(61):              "attachmentList" : [ {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "partDescription" : "KIT",\n
-Action.c(61):                 "partNumber" : "5568555",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              }, {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "includedParts" : [ {\n
-Action.c(61):                    "assemblyIndicator" : "I",\n
-Action.c(61):                    "partDescription" : "BCP DIRECT SHIP",\n
-Action.c(61):                    "partNumber" : "0P7533",\n
-Action.c(61):                    "partPrice" : 0.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : false\n
-Action.c(61):                 }, {\n
-Action.c(61):                    "assemblyIndicator" : "N",\n
-Action.c(61):                    "partDescription" : "3.66 m (12 ft)",\n
-Action.c(61):                    "partNumber" : "4779891",\n
-Action.c(61):                    "partPrice" : 12833.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : true\n
-Action.c(61):                 } ],\n
-Action.c(61):                 "partDescription" : "ATTA SP",\n
-Action.c(61):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              } ],\n
-Action.c(61):              "compatibilityStatus" : "true",\n
-Action.c(61):              "configEnabledBy" : "ST",\n
-Action.c(61):              "currency" : "USD",\n
-Action.c(61):              "dealerPrice" : 78600.0,\n
-Action.c(61):              "description" : "Variable Displacement Piston Pump^Fixed Undercarriage / 12\\" Ru
-Action.c(61):     bber Belt",\n
-Action.c(61):              "dnetPrice" : 67398.0,\n
-Action.c(61):              "hasAttachment" : true,\n
-Action.c(61):              "inventoryAvailabilityData" : "Low",\n
-Action.c(61):              "inventoryAvailabilityDescription" : "",\n
-Action.c(61):              "isCatConfig" : true,\n
-Action.c(61):              "listPrice" : 93607.0,\n
-Action.c(61):              "machineType" : "CAB",\n
-Action.c(61):              "msrpPrice" : 79566.0,\n
-Action.c(61):              "rdeConfigId" : "255255DCA2030C1754303100586",\n
-Action.c(61):              "rdeName" : "ST SHOP 255 CTL C",\n
-Action.c(61):              "shopName" : "ST SHOP 255 CTL H160 C",\n
-Action.c(61):              "shopSubTitle" : "ST SHOP 255 C"\n
-Action.c(61):           }, {\n
-Action.c(61):              "adjustedDealerPrice" : 0.0,\n
-Action.c(61):              "attachmentList" : [ {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "partDescription" : "KIT",\n
-Action.c(61):                 "partNumber" : "5568555",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              }, {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "includedParts" : [ {\n
-Action.c(61):                    "assemblyIndicator" : "I",\n
-Action.c(61):                    "partDescription" : "BCP DIRECT SHIP",\n
-Action.c(61):                    "partNumber" : "0P7533",\n
-Action.c(61):                    "partPrice" : 0.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : false\n
-Action.c(61):                 }, {\n
-Action.c(61):                    "assemblyIndicator" : "N",\n
-Action.c(61):                    "partDescription" : "3.66 m (12 ft)",\n
-Action.c(61):                    "partNumber" : "4779891",\n
-Action.c(61):                    "partPrice" : 12833.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : true\n
-Action.c(61):                 } ],\n
-Action.c(61):                 "partDescription" : "ATTA SP",\n
-Action.c(61):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              } ],\n
-Action.c(61):              "compatibilityStatus" : "true",\n
-Action.c(61):              "configEnabledBy" : "ST",\n
-Action.c(61):              "currency" : "USD",\n
-Action.c(61):              "dealerPrice" : 90000.0,\n
-Action.c(61):              "description" : "Long Stick Dig Depth - 3110 mm / 122^Stick Steer Mode / Travel C
-Action.c(61):     ruise Control",\n
-Action.c(61):              "dnetPrice" : 67398.0,\n
-Action.c(61):              "hasAttachment" : true,\n
-Action.c(61):              "inventoryAvailabilityData" : "Low",\n
-Action.c(61):              "inventoryAvailabilityDescription" : "",\n
-Action.c(61):              "isCatConfig" : false,\n
-Action.c(61):              "listPrice" : 93607.0,\n
-Action.c(61):              "machineType" : "CAB",\n
-Action.c(61):              "msrpPrice" : 79566.0,\n
-Action.c(61):              "rdeConfigId" : "255255DCA2030C1754303174856",\n
-Action.c(61):              "rdeName" : "ST SHOP 255 CTL B",\n
-Action.c(61):              "shopName" : "ST SHOP 255 CTL H160 B",\n
-Action.c(61):              "shopSubTitle" : "ST SHOP 255 B"\n
-Action.c(61):           }, {\n
-Action.c(61):              "adjustedDealerPrice" : 0.0,\n
-Action.c(61):              "attachmentList" : [ {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "partDescription" : "KIT",\n
-Action.c(61):                 "partNumber" : "5568555",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "erpPrice",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              }, {\n
-Action.c(61):                 "included" : false,\n
-Action.c(61):                 "includedParts" : [ {\n
-Action.c(61):                    "assemblyIndicator" : "I",\n
-Action.c(61):                    "partDescription" : "BCP DIRECT SHIP",\n
-Action.c(61):                    "partNumber" : "0P7533",\n
-Action.c(61):                    "partPrice" : 0.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : false\n
-Action.c(61):                 }, {\n
-Action.c(61):                    "assemblyIndicator" : "N",\n
-Action.c(61):                    "partDescription" : "3.66 m (12 ft)",\n
-Action.c(61):                    "partNumber" : "4779891",\n
-Action.c(61):                    "partPrice" : 12833.0,\n
-Action.c(61):                    "quantity" : 1,\n
-Action.c(61):                    "topLevelPart" : true\n
-Action.c(61):                 } ],\n
-Action.c(61):                 "partDescription" : "ATTA SP",\n
-Action.c(61):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
-Action.c(61):                 "price" : 0.0,\n
-Action.c(61):                 "priceFlag" : "price",\n
-Action.c(61):                 "quantity" : 1\n
-Action.c(61):              } ],\n
-Action.c(61):              "compatibilityStatus" : "true",\n
-Action.c(61):              "configEnabledBy" : "ST",\n
-Action.c(61):              "currency" : "USD",\n
-Action.c(61):              "dealerPrice" : 0.0,\n
-Action.c(61):              "description" : "Bucket Thumb Ready^Variable Displacement Piston Pump",\n
-Action.c(61):              "dnetPrice" : 67398.0,\n
-Action.c(61):              "hasAttachment" : true,\n
-Action.c(61):              "inventoryAvailabilityData" : "Low",\n
-Action.c(61):              "inventoryAvailabilityDescription" : "",\n
-Action.c(61):              "isCatConfig" : true,\n
-Action.c(61):              "listPrice" : 93607.0,\n
-Action.c(61):              "machineType" : "CAB",\n
-Action.c(61):              "msrpPrice" : 79566.0,\n
-Action.c(61):              "rdeConfigId" : "255255DCA2030C1754995899614",\n
-Action.c(61):              "rdeName" : "ST SHOP 255 CTL E",\n
-Action.c(61):              "shopName" : "ST SHOP 255 CTL H160 E",\n
-Action.c(61):              "shopSubTitle" : "ST SHOP 255 E"\n
-Action.c(61):           } ],\n
-Action.c(61):           "rdeSalesModel" : "255"\n
-Action.c(61):        } ],\n
-Action.c(61):        "region" : "NACD"\n
-Action.c(61):     }
-Action.c(61): Notify: Saving Parameter "ConfigID_List_1 = 255255DCA2030C1754302924836".
-Action.c(61): Notify: Saving Parameter "ConfigID_List_2 = 255255DCA2030C1754303100586".
-Action.c(61): Notify: Saving Parameter "ConfigID_List_3 = 255255DCA2030C1754303174856".
-Action.c(61): Notify: Saving Parameter "ConfigID_List_4 = 255255DCA2030C1754995899614".
-Action.c(61): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search"  	[MsgId: MMSG-26547]
-Action.c(61): Registered web_reg_find successful for "Text="dealerCode" : "H160"" (count=1)  	[MsgId: MMSG-26364]
-Action.c(61): Notify: Saving Parameter "ConfigID_List_count = 4".
-Action.c(61): web_custom_request("configAPI") was successful, 7349 body bytes, 1136 header bytes  	[MsgId: MMSG-26386]
-Action.c(74): Notify: Parameter Substitution: parameter "ConfigID_List_count" =  "4"
-Action.c(74): Notify: Parameter Substitution: parameter "ConfigID_List_3" =  "255255DCA2030C1754303174856"
-Action.c(75): Notify: Saving Parameter "Stored_Random_string = 255255DCA2030C1754303174856".
-Action.c(76): Notify: Parameter Substitution: parameter "Stored_Random_string" =  "255255DCA2030C1754303174856"
-Action.c(76): Printing random config ID 255255DCA2030C1754303174856
-Action.c(77): Notify: Parameter Substitution: parameter "ConfigID_List_count" =  "4"
-Action.c(82): Notify: Parameter Substitution: parameter "ConfigID_List_1" =  "255255DCA2030C1754302924836"
-Action.c(82): 255255DCA2030C1754302924836
-Action.c(82): Notify: Parameter Substitution: parameter "ConfigID_List_2" =  "255255DCA2030C1754303100586"
-Action.c(82): 255255DCA2030C1754303100586
-Action.c(82): Notify: Parameter Substitution: parameter "ConfigID_List_3" =  "255255DCA2030C1754303174856"
-Action.c(82): 255255DCA2030C1754303174856
-Action.c(82): Notify: Parameter Substitution: parameter "ConfigID_List_4" =  "255255DCA2030C1754995899614"
-Action.c(82): 255255DCA2030C1754995899614
+Action.c(34): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(36): Notify: Parameter Substitution: parameter "DealerCode" =  "H160"
+Action.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(45): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_custom_request("configAPI") started  	[MsgId: MMSG-26355]
+Action.c(60): Notify: Parameter Substitution: parameter "DealerCode" =  "H160"
+Action.c(60): t=5209ms: 1135-byte response headers for "https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search" (RelFrameId=1, Internal ID=2)
+Action.c(60):     HTTP/1.1 200 \r\n
+Action.c(60):     Date: Tue, 12 May 2026 19:38:51 GMT\r\n
+Action.c(60):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(60):     Content-Length: 7349\r\n
+Action.c(60):     Connection: close\r\n
+Action.c(60):     X-Frame-Options: SAMEORIGIN\r\n
+Action.c(60):     Vary: Origin,Accept-Encoding,User-Agent,Access-Control-Request-Method,Access-Control-Reque
+Action.c(60):     st-Headers\r\n
+Action.c(60):     X-Anonymous-Consents: %5B%5D\r\n
+Action.c(60):     Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n
+Action.c(60):     Pragma: no-cache\r\n
+Action.c(60):     Expires: 0\r\n
+Action.c(60):     Strict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\n
+Action.c(60):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(60):     X-Content-Type-Options: nosniff\r\n
+Action.c(60):     Set-Cookie: ROUTE=.api-5bf5b8d888-sgmd5; Path=/; Secure; HttpOnly; SameSite=None\r\n
+Action.c(60):     X-SAP-Pad: 6837830\r\n
+Action.c(60):     Access-Control-Allow-Origin: *\r\n
+Action.c(60):     Access-Control-Allow-Headers: origin, x-requested-with, accept, content-type, authorizatio
+Action.c(60):     n, X-HTTP-Method-Override, x-cat-user-preferences, X-Cat-API-Tracking-Id, Cache-Control, x
+Action.c(60):     -csrf-token, X-Cat-Development, x-cat-ent-application-module\r\n
+Action.c(60):     Access-Control-Max-Age: 3628800\r\n
+Action.c(60):     Access-Control-Allow-Methods: GET, PUT, POST, DELETE, HEAD, PATCH\r\n
+Action.c(60):     Access-Control-Expose-Headers: Location, X-Cat-API-Tracking-Id\r\n
+Action.c(60):     X-Cat-API-Tracking-Id: 07aecb9d-1c1c-48a4-ac0a-c60ce60dfde5\r\n
+Action.c(60):     \r\n
+Action.c(60): t=5212ms: 7349-byte response body for "https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search" (RelFrameId=1, Internal ID=2)
+Action.c(60):     {\n
+Action.c(60):        "dealerCode" : "H160",\n
+Action.c(60):        "locale" : "en_US",\n
+Action.c(60):        "rdeSalesModels" : [ {\n
+Action.c(60):           "configurations" : [ {\n
+Action.c(60):              "adjustedDealerPrice" : 0.0,\n
+Action.c(60):              "attachmentList" : [ {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "partDescription" : "KIT",\n
+Action.c(60):                 "partNumber" : "5568555",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              }, {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "includedParts" : [ {\n
+Action.c(60):                    "assemblyIndicator" : "I",\n
+Action.c(60):                    "partDescription" : "BCP DIRECT SHIP",\n
+Action.c(60):                    "partNumber" : "0P7533",\n
+Action.c(60):                    "partPrice" : 0.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : false\n
+Action.c(60):                 }, {\n
+Action.c(60):                    "assemblyIndicator" : "N",\n
+Action.c(60):                    "partDescription" : "3.66 m (12 ft)",\n
+Action.c(60):                    "partNumber" : "4779891",\n
+Action.c(60):                    "partPrice" : 12833.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : true\n
+Action.c(60):                 } ],\n
+Action.c(60):                 "partDescription" : "ATTA SP",\n
+Action.c(60):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              } ],\n
+Action.c(60):              "compatibilityStatus" : "true",\n
+Action.c(60):              "configEnabledBy" : "ST",\n
+Action.c(60):              "currency" : "USD",\n
+Action.c(60):              "dealerPrice" : 0.0,\n
+Action.c(60):              "description" : "Aux Hydraulic Lines w/ Quick Disconnect^Long Stick Dig Depth - 3
+Action.c(60):     110 mm / 122",\n
+Action.c(60):              "dnetPrice" : 68979.0,\n
+Action.c(60):              "hasAttachment" : true,\n
+Action.c(60):              "inventoryAvailabilityData" : "Low",\n
+Action.c(60):              "inventoryAvailabilityDescription" : "",\n
+Action.c(60):              "isCatConfig" : true,\n
+Action.c(60):              "listPrice" : 95802.0,\n
+Action.c(60):              "machineType" : "CAB",\n
+Action.c(60):              "msrpPrice" : 81433.0,\n
+Action.c(60):              "rdeConfigId" : "255255DCA2030C1754302924836",\n
+Action.c(60):              "rdeName" : "ST SHOP 255 CTL D",\n
+Action.c(60):              "shopName" : "ST SHOP 255 CTL H160 D",\n
+Action.c(60):              "shopSubTitle" : "ST SHOP 255 D"\n
+Action.c(60):           }, {\n
+Action.c(60):              "adjustedDealerPrice" : 0.0,\n
+Action.c(60):              "attachmentList" : [ {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "partDescription" : "KIT",\n
+Action.c(60):                 "partNumber" : "5568555",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              }, {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "includedParts" : [ {\n
+Action.c(60):                    "assemblyIndicator" : "I",\n
+Action.c(60):                    "partDescription" : "BCP DIRECT SHIP",\n
+Action.c(60):                    "partNumber" : "0P7533",\n
+Action.c(60):                    "partPrice" : 0.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : false\n
+Action.c(60):                 }, {\n
+Action.c(60):                    "assemblyIndicator" : "N",\n
+Action.c(60):                    "partDescription" : "3.66 m (12 ft)",\n
+Action.c(60):                    "partNumber" : "4779891",\n
+Action.c(60):                    "partPrice" : 12833.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : true\n
+Action.c(60):                 } ],\n
+Action.c(60):                 "partDescription" : "ATTA SP",\n
+Action.c(60):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              } ],\n
+Action.c(60):              "compatibilityStatus" : "true",\n
+Action.c(60):              "configEnabledBy" : "ST",\n
+Action.c(60):              "currency" : "USD",\n
+Action.c(60):              "dealerPrice" : 78600.0,\n
+Action.c(60):              "description" : "Variable Displacement Piston Pump^Fixed Undercarriage / 12\\" Ru
+Action.c(60):     bber Belt",\n
+Action.c(60):              "dnetPrice" : 67398.0,\n
+Action.c(60):              "hasAttachment" : true,\n
+Action.c(60):              "inventoryAvailabilityData" : "Low",\n
+Action.c(60):              "inventoryAvailabilityDescription" : "",\n
+Action.c(60):              "isCatConfig" : true,\n
+Action.c(60):              "listPrice" : 93607.0,\n
+Action.c(60):              "machineType" : "CAB",\n
+Action.c(60):              "msrpPrice" : 79566.0,\n
+Action.c(60):              "rdeConfigId" : "255255DCA2030C1754303100586",\n
+Action.c(60):              "rdeName" : "ST SHOP 255 CTL C",\n
+Action.c(60):              "shopName" : "ST SHOP 255 CTL H160 C",\n
+Action.c(60):              "shopSubTitle" : "ST SHOP 255 C"\n
+Action.c(60):           }, {\n
+Action.c(60):              "adjustedDealerPrice" : 0.0,\n
+Action.c(60):              "attachmentList" : [ {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "partDescription" : "KIT",\n
+Action.c(60):                 "partNumber" : "5568555",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              }, {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "includedParts" : [ {\n
+Action.c(60):                    "assemblyIndicator" : "I",\n
+Action.c(60):                    "partDescription" : "BCP DIRECT SHIP",\n
+Action.c(60):                    "partNumber" : "0P7533",\n
+Action.c(60):                    "partPrice" : 0.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : false\n
+Action.c(60):                 }, {\n
+Action.c(60):                    "assemblyIndicator" : "N",\n
+Action.c(60):                    "partDescription" : "3.66 m (12 ft)",\n
+Action.c(60):                    "partNumber" : "4779891",\n
+Action.c(60):                    "partPrice" : 12833.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : true\n
+Action.c(60):                 } ],\n
+Action.c(60):                 "partDescription" : "ATTA SP",\n
+Action.c(60):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              } ],\n
+Action.c(60):              "compatibilityStatus" : "true",\n
+Action.c(60):              "configEnabledBy" : "ST",\n
+Action.c(60):              "currency" : "USD",\n
+Action.c(60):              "dealerPrice" : 90000.0,\n
+Action.c(60):              "description" : "Long Stick Dig Depth - 3110 mm / 122^Stick Steer Mode / Travel C
+Action.c(60):     ruise Control",\n
+Action.c(60):              "dnetPrice" : 67398.0,\n
+Action.c(60):              "hasAttachment" : true,\n
+Action.c(60):              "inventoryAvailabilityData" : "Low",\n
+Action.c(60):              "inventoryAvailabilityDescription" : "",\n
+Action.c(60):              "isCatConfig" : false,\n
+Action.c(60):              "listPrice" : 93607.0,\n
+Action.c(60):              "machineType" : "CAB",\n
+Action.c(60):              "msrpPrice" : 79566.0,\n
+Action.c(60):              "rdeConfigId" : "255255DCA2030C1754303174856",\n
+Action.c(60):              "rdeName" : "ST SHOP 255 CTL B",\n
+Action.c(60):              "shopName" : "ST SHOP 255 CTL H160 B",\n
+Action.c(60):              "shopSubTitle" : "ST SHOP 255 B"\n
+Action.c(60):           }, {\n
+Action.c(60):              "adjustedDealerPrice" : 0.0,\n
+Action.c(60):              "attachmentList" : [ {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "partDescription" : "KIT",\n
+Action.c(60):                 "partNumber" : "5568555",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "erpPrice",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              }, {\n
+Action.c(60):                 "included" : false,\n
+Action.c(60):                 "includedParts" : [ {\n
+Action.c(60):                    "assemblyIndicator" : "I",\n
+Action.c(60):                    "partDescription" : "BCP DIRECT SHIP",\n
+Action.c(60):                    "partNumber" : "0P7533",\n
+Action.c(60):                    "partPrice" : 0.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : false\n
+Action.c(60):                 }, {\n
+Action.c(60):                    "assemblyIndicator" : "N",\n
+Action.c(60):                    "partDescription" : "3.66 m (12 ft)",\n
+Action.c(60):                    "partNumber" : "4779891",\n
+Action.c(60):                    "partPrice" : 12833.0,\n
+Action.c(60):                    "quantity" : 1,\n
+Action.c(60):                    "topLevelPart" : true\n
+Action.c(60):                 } ],\n
+Action.c(60):                 "partDescription" : "ATTA SP",\n
+Action.c(60):                 "partNumber" : "BCPDS0000RTJK515906649955775",\n
+Action.c(60):                 "price" : 0.0,\n
+Action.c(60):                 "priceFlag" : "price",\n
+Action.c(60):                 "quantity" : 1\n
+Action.c(60):              } ],\n
+Action.c(60):              "compatibilityStatus" : "true",\n
+Action.c(60):              "configEnabledBy" : "ST",\n
+Action.c(60):              "currency" : "USD",\n
+Action.c(60):              "dealerPrice" : 0.0,\n
+Action.c(60):              "description" : "Bucket Thumb Ready^Variable Displacement Piston Pump",\n
+Action.c(60):              "dnetPrice" : 67398.0,\n
+Action.c(60):              "hasAttachment" : true,\n
+Action.c(60):              "inventoryAvailabilityData" : "Low",\n
+Action.c(60):              "inventoryAvailabilityDescription" : "",\n
+Action.c(60):              "isCatConfig" : true,\n
+Action.c(60):              "listPrice" : 93607.0,\n
+Action.c(60):              "machineType" : "CAB",\n
+Action.c(60):              "msrpPrice" : 79566.0,\n
+Action.c(60):              "rdeConfigId" : "255255DCA2030C1754995899614",\n
+Action.c(60):              "rdeName" : "ST SHOP 255 CTL E",\n
+Action.c(60):              "shopName" : "ST SHOP 255 CTL H160 E",\n
+Action.c(60):              "shopSubTitle" : "ST SHOP 255 E"\n
+Action.c(60):           } ],\n
+Action.c(60):           "rdeSalesModel" : "255"\n
+Action.c(60):        } ],\n
+Action.c(60):        "region" : "NACD"\n
+Action.c(60):     }
+Action.c(60): Notify: Saving Parameter "ConfigID_List_1 = 255255DCA2030C1754302924836".
+Action.c(60): Notify: Saving Parameter "ConfigID_List_2 = 255255DCA2030C1754303100586".
+Action.c(60): Notify: Saving Parameter "ConfigID_List_3 = 255255DCA2030C1754303174856".
+Action.c(60): Notify: Saving Parameter "ConfigID_List_4 = 255255DCA2030C1754995899614".
+Action.c(60): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://api-stage.cat.com/rde/dealerSalesModels/v1/dealer/configurations/search"  	[MsgId: MMSG-26547]
+Action.c(60): Registered web_reg_find successful for "Text="dealerCode" : "H160"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(60): Notify: Saving Parameter "ConfigID_List_count = 4".
+Action.c(60): web_custom_request("configAPI") was successful, 7349 body bytes, 1135 header bytes  	[MsgId: MMSG-26386]
+Action.c(73): Notify: Parameter Substitution: parameter "ConfigID_List_count" =  "4"
+Action.c(73): Notify: Parameter Substitution: parameter "ConfigID_List_3" =  "255255DCA2030C1754303174856"
+Action.c(74): Notify: Saving Parameter "Stored_Random_string = 255255DCA2030C1754303174856".
+Action.c(75): Notify: Parameter Substitution: parameter "Stored_Random_string" =  "255255DCA2030C1754303174856"
+Action.c(75): Printing random config ID 255255DCA2030C1754303174856
+Action.c(76): Notify: Parameter Substitution: parameter "ConfigID_List_count" =  "4"
+Action.c(81): Notify: Parameter Substitution: parameter "ConfigID_List_1" =  "255255DCA2030C1754302924836"
+Action.c(81): 255255DCA2030C1754302924836
+Action.c(81): Notify: Parameter Substitution: parameter "ConfigID_List_2" =  "255255DCA2030C1754303100586"
+Action.c(81): 255255DCA2030C1754303100586
+Action.c(81): Notify: Parameter Substitution: parameter "ConfigID_List_3" =  "255255DCA2030C1754303174856"
+Action.c(81): 255255DCA2030C1754303174856
+Action.c(81): Notify: Parameter Substitution: parameter "ConfigID_List_4" =  "255255DCA2030C1754995899614"
+Action.c(81): 255255DCA2030C1754995899614
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
