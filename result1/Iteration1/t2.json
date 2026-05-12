@@ -1,87 +1,205 @@
 {
-   "dealerCode" : "E140",
+   "dealerCode" : "H160",
    "locale" : "en_US",
    "rdeSalesModels" : [ {
       "configurations" : [ {
-         "adjustedDealerPrice" : 112404.6,
-         "compatibilityStatus" : "false",
-         "configEnabledBy" : "IM",
-         "configurationSequence" : 1,
-         "currency" : "USD",
-         "dealerPrice" : 60000.0,
-         "description" : "Enabled",
-         "dnetPrice" : 90678.0,
-         "hasAttachment" : true,
-         "inventoryAvailabilityData" : "Low",
-         "inventoryAvailabilityDescription" : "",
-         "isCatConfig" : false,
-         "msrpPrice" : 107052.0,
-         "rdeConfigId" : "415415140B1727944492919",
-         "rdeName" : "ShopPro1",
-         "shopName" : "ShopPro1",
-         "shopSubTitle" : ""
-      }, {
-         "adjustedDealerPrice" : 109633.65,
+         "adjustedDealerPrice" : 0.0,
+         "attachmentList" : [ {
+            "included" : false,
+            "partDescription" : "KIT",
+            "partNumber" : "5568555",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         }, {
+            "included" : false,
+            "includedParts" : [ {
+               "assemblyIndicator" : "I",
+               "partDescription" : "BCP DIRECT SHIP",
+               "partNumber" : "0P7533",
+               "partPrice" : 0.0,
+               "quantity" : 1,
+               "topLevelPart" : false
+            }, {
+               "assemblyIndicator" : "N",
+               "partDescription" : "3.66 m (12 ft)",
+               "partNumber" : "4779891",
+               "partPrice" : 12833.0,
+               "quantity" : 1,
+               "topLevelPart" : true
+            } ],
+            "partDescription" : "ATTA SP",
+            "partNumber" : "BCPDS0000RTJK515906649955775",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         } ],
          "compatibilityStatus" : "true",
          "configEnabledBy" : "ST",
          "currency" : "USD",
          "dealerPrice" : 0.0,
-         "description" : "1",
-         "dnetPrice" : 88443.0,
+         "description" : "Aux Hydraulic Lines w/ Quick Disconnect^Long Stick Dig Depth - 3110 mm / 122",
+         "dnetPrice" : 68979.0,
          "hasAttachment" : true,
          "inventoryAvailabilityData" : "Low",
          "inventoryAvailabilityDescription" : "",
-         "isCatConfig" : false,
-         "msrpPrice" : 104413.0,
-         "rdeConfigId" : "415415140BC1717684371538",
-         "rdeName" : "techuserTest SM",
-         "shopName" : "techuserTest SM",
-         "shopSubTitle" : ""
-      }, {
-         "adjustedDealerPrice" : 111793.5,
-         "attachmentList" : [ {
-            "included" : false,
-            "partDescription" : "3.5 m3 (4.6 yd3), Pin On, Bolt-On Cutting Edge",
-            "partNumber" : "3603332",
-            "price" : 12014.0,
-            "priceFlag" : "price",
-            "quantity" : 1,
-            "salesMessage" : "1"
-         } ],
-         "compatibilityStatus" : "true",
-         "configEnabledBy" : "IM",
-         "currency" : "USD",
-         "dealerPrice" : 0.0,
-         "description" : "LANE_!_TEST",
-         "dnetPrice" : 90187.0,
-         "hasAttachment" : true,
-         "inventoryAvailabilityData" : "Low",
-         "inventoryAvailabilityDescription" : "",
-         "isCatConfig" : false,
-         "msrpPrice" : 106470.0,
-         "rdeConfigId" : "415415DC1A140C1732869736950",
-         "rdeName" : "LANE_CONFIG_TEST",
-         "shopName" : "LANE_CONFIG_TEST",
-         "shopSubTitle" : ""
+         "isCatConfig" : true,
+         "listPrice" : 95802.0,
+         "machineType" : "CAB",
+         "msrpPrice" : 81433.0,
+         "rdeConfigId" : "255255DCA2030C1754302924836",
+         "rdeName" : "ST SHOP 255 CTL D",
+         "shopName" : "ST SHOP 255 CTL H160 D",
+         "shopSubTitle" : "ST SHOP 255 D"
       }, {
          "adjustedDealerPrice" : 0.0,
+         "attachmentList" : [ {
+            "included" : false,
+            "partDescription" : "KIT",
+            "partNumber" : "5568555",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         }, {
+            "included" : false,
+            "includedParts" : [ {
+               "assemblyIndicator" : "I",
+               "partDescription" : "BCP DIRECT SHIP",
+               "partNumber" : "0P7533",
+               "partPrice" : 0.0,
+               "quantity" : 1,
+               "topLevelPart" : false
+            }, {
+               "assemblyIndicator" : "N",
+               "partDescription" : "3.66 m (12 ft)",
+               "partNumber" : "4779891",
+               "partPrice" : 12833.0,
+               "quantity" : 1,
+               "topLevelPart" : true
+            } ],
+            "partDescription" : "ATTA SP",
+            "partNumber" : "BCPDS0000RTJK515906649955775",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         } ],
          "compatibilityStatus" : "true",
-         "configEnabledBy" : "IM",
+         "configEnabledBy" : "ST",
          "currency" : "USD",
-         "dealerPrice" : 0.0,
-         "description" : "sefg",
-         "dnetPrice" : 88308.0,
+         "dealerPrice" : 78600.0,
+         "description" : "Variable Displacement Piston Pump^Fixed Undercarriage / 12\" Rubber Belt",
+         "dnetPrice" : 67398.0,
+         "hasAttachment" : true,
+         "inventoryAvailabilityData" : "Low",
+         "inventoryAvailabilityDescription" : "",
+         "isCatConfig" : true,
+         "listPrice" : 93607.0,
+         "machineType" : "CAB",
+         "msrpPrice" : 79566.0,
+         "rdeConfigId" : "255255DCA2030C1754303100586",
+         "rdeName" : "ST SHOP 255 CTL C",
+         "shopName" : "ST SHOP 255 CTL H160 C",
+         "shopSubTitle" : "ST SHOP 255 C"
+      }, {
+         "adjustedDealerPrice" : 0.0,
+         "attachmentList" : [ {
+            "included" : false,
+            "partDescription" : "KIT",
+            "partNumber" : "5568555",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         }, {
+            "included" : false,
+            "includedParts" : [ {
+               "assemblyIndicator" : "I",
+               "partDescription" : "BCP DIRECT SHIP",
+               "partNumber" : "0P7533",
+               "partPrice" : 0.0,
+               "quantity" : 1,
+               "topLevelPart" : false
+            }, {
+               "assemblyIndicator" : "N",
+               "partDescription" : "3.66 m (12 ft)",
+               "partNumber" : "4779891",
+               "partPrice" : 12833.0,
+               "quantity" : 1,
+               "topLevelPart" : true
+            } ],
+            "partDescription" : "ATTA SP",
+            "partNumber" : "BCPDS0000RTJK515906649955775",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         } ],
+         "compatibilityStatus" : "true",
+         "configEnabledBy" : "ST",
+         "currency" : "USD",
+         "dealerPrice" : 90000.0,
+         "description" : "Long Stick Dig Depth - 3110 mm / 122^Stick Steer Mode / Travel Cruise Control",
+         "dnetPrice" : 67398.0,
          "hasAttachment" : true,
          "inventoryAvailabilityData" : "Low",
          "inventoryAvailabilityDescription" : "",
          "isCatConfig" : false,
-         "msrpPrice" : 104253.0,
-         "rdeConfigId" : "415415140B1724933298885",
-         "rdeName" : "E140_Config 22",
-         "shopName" : "E140_Config 22",
-         "shopSubTitle" : ""
+         "listPrice" : 93607.0,
+         "machineType" : "CAB",
+         "msrpPrice" : 79566.0,
+         "rdeConfigId" : "255255DCA2030C1754303174856",
+         "rdeName" : "ST SHOP 255 CTL B",
+         "shopName" : "ST SHOP 255 CTL H160 B",
+         "shopSubTitle" : "ST SHOP 255 B"
+      }, {
+         "adjustedDealerPrice" : 0.0,
+         "attachmentList" : [ {
+            "included" : false,
+            "partDescription" : "KIT",
+            "partNumber" : "5568555",
+            "price" : 0.0,
+            "priceFlag" : "erpPrice",
+            "quantity" : 1
+         }, {
+            "included" : false,
+            "includedParts" : [ {
+               "assemblyIndicator" : "I",
+               "partDescription" : "BCP DIRECT SHIP",
+               "partNumber" : "0P7533",
+               "partPrice" : 0.0,
+               "quantity" : 1,
+               "topLevelPart" : false
+            }, {
+               "assemblyIndicator" : "N",
+               "partDescription" : "3.66 m (12 ft)",
+               "partNumber" : "4779891",
+               "partPrice" : 12833.0,
+               "quantity" : 1,
+               "topLevelPart" : true
+            } ],
+            "partDescription" : "ATTA SP",
+            "partNumber" : "BCPDS0000RTJK515906649955775",
+            "price" : 0.0,
+            "priceFlag" : "price",
+            "quantity" : 1
+         } ],
+         "compatibilityStatus" : "true",
+         "configEnabledBy" : "ST",
+         "currency" : "USD",
+         "dealerPrice" : 0.0,
+         "description" : "Bucket Thumb Ready^Variable Displacement Piston Pump",
+         "dnetPrice" : 67398.0,
+         "hasAttachment" : true,
+         "inventoryAvailabilityData" : "Low",
+         "inventoryAvailabilityDescription" : "",
+         "isCatConfig" : true,
+         "listPrice" : 93607.0,
+         "machineType" : "CAB",
+         "msrpPrice" : 79566.0,
+         "rdeConfigId" : "255255DCA2030C1754995899614",
+         "rdeName" : "ST SHOP 255 CTL E",
+         "shopName" : "ST SHOP 255 CTL H160 E",
+         "shopSubTitle" : "ST SHOP 255 E"
       } ],
-      "rdeSalesModel" : "415"
+      "rdeSalesModel" : "255"
    } ],
    "region" : "NACD"
 }

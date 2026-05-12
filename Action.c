@@ -65,7 +65,7 @@ Action()
 	                   "Body={"
 							  "\"dealerCode\": \"{DealerCode}\","
 							  "\"rdeSalesModels\": ["
-							    "\"415\""
+							    "\"255\""
 							  "],"
 							  "\"region\": \"NACD\","
 							  "\"locale\": \"en_US\""

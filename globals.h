@@ -10,7 +10,7 @@ char *finalString , *value, *ConfigID_List_Random;
 int i,config_Count;
 //char iteratedString[64];
 char newParamName[70];
-char *iteratedString;
+char iteratedString[250];
 
 //--------------------------------------------------------------------
 // Global Variables
