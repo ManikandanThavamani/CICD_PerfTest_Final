@@ -1,6 +1,6 @@
 Action()
 {
-	web_set_max_html_param_len("9999999999");
+	web_set_max_html_param_len("99999");
 	//Tester tested git
 	
 	/*
@@ -22,7 +22,6 @@ Action()
 	                     "Scope=BODY",
 	                     LAST);
 	
-	        
 	web_submit_data("Authorization",
 	                "Action=https://fedloginqa.cat.com/as/token.oauth2",
 	                "Method=POST",
@@ -83,7 +82,5 @@ Action()
 		lr_output_message(lr_eval_string(iteratedString));
 	    }
 	
-	
-
 	return 0;
 }

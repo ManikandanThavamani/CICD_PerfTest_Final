@@ -6,13 +6,13 @@
                 "stepId": "STEP1",
                 "stepName": "Submit Data: Authorization",
                 "infFile": "t1.inf",
-                "time": 1778568923169
+                "time": 1778570273893
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Custom Request: configAPI",
                 "infFile": "t2.inf",
-                "time": 1778568925888
+                "time": 1778570276057
             }
         ],
         "transactions": []
