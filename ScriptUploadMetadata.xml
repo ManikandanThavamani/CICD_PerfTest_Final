@@ -81,5 +81,6 @@
     <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="Results_CMD_Run\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
