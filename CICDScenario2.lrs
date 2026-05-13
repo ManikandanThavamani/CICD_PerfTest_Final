@@ -14,7 +14,7 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=C:\JenkinsHome\workspace\LR_Automation\CICDScenario2.lrs
+Path=C:\JenkinsHome\workspace\PT_Trigger\CICDScenario2.lrs
 Author=mani_
 Subject=CICDScenario2
 Description=
@@ -200,7 +200,7 @@ UiName=CATProject
 Type=1
 SubType=Multi+WS_SOAP
 ScriptType=14
-Path=C:\JenkinsHome\workspace\LR_Automation\CATProject.usr
+Path=C:\JenkinsHome\workspace\PT_Trigger\CATProject.usr
 EmulatedLocation=None
 NVAnalytics=0
 Config=[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nNavigatorBrowserLanguage="en-US"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="en-IN"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent="0"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nLogFileWrite="0"\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.0"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2025/05/14 16:41:54"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="0"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1020"\r\nBrowserAcceptLanguage="None"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-US"\r\nSimulateCache="0"\r\nDisableAED="1"\r\nEnableChecks="0"\r\nProxyHTTPPort="0"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="None"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="0"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads="1"\r\niter_ends_val="fixed"\r\nDefaultRunLogic=uspb8q.683\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\niter_begins_val="fixed"\r\nFailTransOnErrorMsg="0"\r\n[JMS]\r\nSecurityPrincipal=""\r\nauto_generate_selector="0"\r\nConnectionFactory=""\r\nJNDI_provider_URL=""\r\nmsg_timeout="1"\r\nconnections_per_process="1"\r\nJNDI_InitialContextFactory=""\r\nuser_define_timeout="20"\r\nVM_Params=""\r\nUse_external_VM="0"\r\njvm_home="%JDK_HOME%"\r\nSecurityCredentials=""\r\nClasspath="%CLASSPATH%"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="0"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nThinkTimeRandomHigh="150"\r\nThinkTimeRandomLow="50"\r\nLimit="1"\r\nLimitFlag="0"\r\n[WebServices]\r\nToolkit="WCF"\r\nversion="2"\r\n
