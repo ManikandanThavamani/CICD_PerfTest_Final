@@ -1,6 +1,5 @@
 Action()
 {
-	//added comments
 	web_set_max_html_param_len("99999");
 	/*
 	
@@ -14,6 +13,8 @@ Action()
 		Action.c(4):     n":3599}
 	
 	*/
+	
+	lr_start_transaction("TR01_GeneratingAuthCode");
 	web_reg_save_param_ex("ParamName=Auth_token",
 	                     "LB=\"access_token\":\"",
 	                     "RB=\",\"token_type\":\"Bearer\"",
@@ -32,7 +33,9 @@ Action()
 	
 	web_add_header("Authorization","Bearer {Auth_token}");
 	web_add_header("Content-Type","application/json");
+	lr_end_transaction("TR01_GeneratingAuthCode",LR_AUTO);
 	
+	lr_start_transaction("TR02_ActualAPI")
 	web_reg_find("Fail=NotFound",
 	             "Search=Body",
 	             "Text=\"dealerCode\" : \"{DealerCode}\"",
@@ -70,6 +73,7 @@ Action()
 							"}",
 	                   LAST);
 	
+	lr_end_transaction("TR02_ActualAPI",LR_AUTO");
 	ConfigID_List_Random = lr_paramarr_random("ConfigID_List");
 	lr_save_string(ConfigID_List_Random,"Stored_Random_string");
 	lr_output_message("Printing random config ID %s",lr_eval_string("{Stored_Random_string}"));

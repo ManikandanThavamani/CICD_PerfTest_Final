@@ -53,9 +53,11 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="TR01_GeneratingAuthCode"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[Transactions]
+TR01_GeneratingAuthCode=
