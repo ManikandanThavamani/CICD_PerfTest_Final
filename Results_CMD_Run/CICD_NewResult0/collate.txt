@@ -1,5 +1,0 @@
-[Diagnostics]
-Status=-1
-[Collate Recovery]
-Scenario=G:\VugenScripts\CATProject\CICDScenario2.lrs
-Completed=0
