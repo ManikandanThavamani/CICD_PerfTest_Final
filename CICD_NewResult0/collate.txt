@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\JenkinsHome\workspace\PT_Trigger\CICDScenario2.lrs
+Completed=0
