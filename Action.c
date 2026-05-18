@@ -85,6 +85,5 @@ Action()
 		sprintf(iteratedString,"{ConfigID_List_%d}",i);
 		lr_output_message(lr_eval_string(iteratedString));
 	    }
-	//kkiii
 	return 0;
 }
